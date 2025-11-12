@@ -1,6 +1,6 @@
 # Visualizing Music: Exploring the Relationship Between Musical Features and Mental Imagery
 
-## Project Overview
+## Abstract
 This project explores how music-evoked mental images can be transformed into visual representations generated from acoustic features of real musical excerpts.
 The long-term goal is to investigate whether such visual feedback could help people with hearing impairments experience the emotional and structural qualities of music through vision.
 
@@ -11,16 +11,14 @@ The project basis will be created combining insights from:
 Therefore, this project connects subjective imagery with objective sound analysis, turning musical parameters into dynamic visual cues.
 
 ---
-## Background and Theoretical Framework
+## Introduction
 
 ---
-## Conceptual Framework
+## Theoretical Framework and Related Studies
 
 ---
 ## Research Questions & Hypotheses
 Main Hypothesis: Visuals whose parameters vary with key musical features will evoke emotional impressions similar to those experienced when listening to the music, suggesting a potential pathway for conveying musical affect to hearing-impaired individuals.
-
-
 
 
 ---
