@@ -3,7 +3,7 @@
 ## Abstract
 This project explores whether the emotional qualities of music can be communicated visually by mapping the set of acustic features, Energy (RMS), Spectral Centroid and Tempo (BPM), to simple dynamic visual parameters such as movement intensity, color and rhythmic pulsing. This is explored using four short instrumental excerpts, each of which conveys an emotion (happiness, sadness, fear, calm). The system perform feature extraction and generates visuals whose temporal evolution is related with the set of acustic features. A user study compares valence and arousal ratings accross three different tests, audio only, visual only, and audio+visual, with the goal to evaluate how these visuals approximate or modify the emotional impressions of the music. By examining how visual changes generated from acoustic features evoke emotional responses, the project aims to explore, on a small scale, how musical emotion can be experienced through sight, with potential implications for users with hearing impairments.
 
----
+--
 ## Introduction
 
 ---
@@ -17,7 +17,7 @@ The project basis will be created combining insights from:
 
 Therefore, this project connects subjective imagery with objective sound analysis, turning musical parameters into dynamic visual cues.
 
----
+-
 ## Research Questions & Hypotheses
 Main Hypothesis: Visuals whose parameters vary with key musical features will evoke emotional impressions similar to those experienced when listening to the music, suggesting a potential pathway for conveying musical affect to hearing-impaired individuals.
 
