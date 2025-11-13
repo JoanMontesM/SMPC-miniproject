@@ -1,4 +1,4 @@
-# Exploring Musical Emotion Visualization Through Acoustic Feature Mapping:
+# Exploring Musical Emotion Visualization Through Acoustic Feature Mapping
 
 ## Abstract
 This project explores whether the emotional qualities of music can be communicated visually by mapping the set of acustic features, Energy (RMS), Spectral Centroid and Tempo (BPM), to simple dynamic visual parameters such as movement intensity, color and rhythmic pulsing. This is explored using four short instrumental excerpts, each of which conveys an emotion (happiness, sadness, fear, calm). The system perform feature extraction and generates visuals whose temporal evolution is related with the set of acustic features. A user study compares valence and arousal ratings accross three different tests, audio only, visual only, and audio+visual, with the goal to evaluate how these visuals approximate or modify the emotional impressions of the music. By examining how visual changes generated from acoustic features evoke emotional responses, the project aims to explore, on a small scale, how musical emotion can be experienced through sight, with potential implications for users with hearing impairments.
