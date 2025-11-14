@@ -40,8 +40,6 @@ Can visuals generated from Energy (RMS), Spectral Centroid and Tempo (BPM) evoke
 Per a que els usuaris sapiguen com categoritzar les emocions mitjançant els visuals, els dos primers tests que relitzen poden ser audio+visual d'una canço trista y altra feliç, y despres de forma aleatoria que es presente nomes la part visual (d'altra canço) y que tracten de categoritzar "l'emoció" que esta transmetent la peça.
 
 ---
-
----
 ### References
 
 ---
