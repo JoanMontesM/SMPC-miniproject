@@ -13,14 +13,22 @@ To address this challenge, it is essential to identify which musical features ar
 
 The project aims to explain and apply correspondences between acustic and visual features supported by previous research. The goal is not to replicate the richness and complexity of music in visual form, but rather to examine how changes in energy (RMS), spectral centroid and tempo (BPM) can, through variations in movement, color and rhythmic pulsing, evoke affective responses that aling with those produced by music.
 
-Finally, a user study compares emotional responses across three conditions (audio, visual and audio+visual), using Russell's valence-arousal model (Russel 1980). The study focuses on two regions of the affective space, as it examines short musical excerpts categorized specifically as expressing happiness and sadness.
-
 ---
 ## Theoretical Framework and Related Studies
-- Musical emotion and the valence-arousal model (Russell, 1980)
-- Acoustic features and their role in emotional perception (Haumann, 2018, 2021): Describe relationships between acoustic features and emotion and justify my selection of three features.
+The emotions conveyed by music are complex and cannot typically be captured with simple labels such as “happy” or “sad.” For this reason, studies on music perception often rely on dimensional models that represent emotion along continuous axes. One of the most influential is the valence–arousal model (Russell, 1980), which positions emotions according to their level of positivity (valence) and level of activation (arousal). This model is widely used in studies comparing emotional responses across audiovisual stimuli, making it a useful framework for evaluating whether visualizations generated from acoustic features evoke emotional impressions similar to those produced by the music itself.
+
+Although the valence–arousal model provides a useful framework for describing emotional responses to audiovisual stimuli, it does not explain which aspects of the signals account for differences in emotional impressions. To understand how music occupies different regions of the affective space, it is essential to examine the acoustic features that shape listeners perception of valence and arousal.
+
+Many studies show that low-level acoustic attributes play a significant role in explaining listeners’ emotional responses. For instance, the studies conducted by Haumann (Haumann et al., 2018, 2021) demonstrate that variations in energy (root mean square), spectral brightness, and temporal structure systematically predict arousal and valence values:
+- Energy (RMS) reflects the overall intensity of the signal and strongly correlates with perceived arousal. Louder or more energetic music is judged as more activating and emotionally intense.
+- Spectral centroid is a measure of timbral brightness, which influences both valence and arousal. Brighter timbres tend to be associated with higher arousal and more positive emotional qualities, whereas darker timbres are perceived as calmer or sadder.
+- Tempo (BPM) is one of the strongest predictors of arousal. Faster tempos elicit higher activation and are frequently linked to emotions such as happiness or excitement, while slower tempos align with sadness or calmness.
+
+Although acoustic features influence emotion directly, listeners do not experience music only in auditory terms. Many studies show that music spontaneously evokes mental imagery, often involving color, motion or spatial forms, suggesting that the perceptual system establishes natural associations between acoustic structure and visual representation. Understanding these imagery processes provides an important bridge toward studying visualizations generated from acoustic features.
+
 - Music evoked mental imagery (Dahl, 2023): Sometimes listeners saw mental visual imagery when hearing music. Imagery patterns often correspond to acoustic properties.
 - Relationships between sound and vision (Spence 2011, Palmer 2013, Marks 1975, Tresilian 2020): justification of why visuals can evoke similar emotions, how humans match diferent acustic features to visual changes. Justification of my visual features choice and their mapping to an acustic feature.
+- Linking Valence–Arousal with Acoustic and Visual Features
 - Short paragraph summarizing and leading into the Research Question and Hypotheses.
 
 ---
