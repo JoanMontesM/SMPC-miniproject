@@ -33,8 +33,15 @@ Las investigaciones en percepción multisensorial muestran que muchas relaciones
 Existen muchos estudios que documentan estas correspondences entre el sistema auditivo y el sistema visual, a continuacion se muestran las tres categorias de mappings que se exploraran en el proyecto, así como la literatura que los soporta:
 
 - One of the most consistent findings is the association between acoustic intensity (loudness, RMS) and visual motion. Already in early work, Marks demonstrated that increases in auditory intensity are matched with increases in visual size or movement, noting that "*greater loudness is associated with greater visual magnitude* (Marks, 1975). De forma similar, Evans and Treisman documentaron que, de forma natural, los oyentes relacionan sonidos fuertes con estimulos visuales aparentemente largos o rapidos, concluyendo que "*auditory intensity tends to be matched with increased visual dynamism*" (Evans & Treisman, 2011). Therefore, this findings suggests that acoustic energy could be mapped to movement amplitude or speed in visual representations.
-- Spectral Brightness → Color Brightness and Hue
-- Tempo → Visual Pulsing and Rhythm
+- Otra correspondencia establecida en la literatura existente és el spectral brightnes (o spectral centroid) con el color brightness and hue. El sepectral brightness es...
+Segun Bresin, los oyentes associan brighter timbres con "*yellowish and reddish hues*", while darker timbres evoke "*bluish, darker or more muted colors*" (Bresin, 2005). Además también existen estudios donde exploran la sinestesia en los cuales se demuestran que "*higher-pitched and brighter sounds are reliably matched with brighter and lighter colours, even in non-synesthetes*" (Ward, Huckstep, & Tsakanikos, 2006).
+Un poco más tarde, se demostró que las asociaciones entre musica y colores se forman debido a las emociones, donde piezas musicales percibidas como brighter o energeticas corresponden a "*warmer, more saturated colors such as yellow and red*", mientras que las piezas tristes o oscuras se corresponden a "*cold, darker colors such as blue and purple*" (Palment et al, 2013).
+- Por último, la estructura temporal también presenta una relacion crossmodal, además, esta ha sido respaldada por diferentes experimentos en timing audiovisual, como el de Hove & Spence, en el cual se demostró que los oyentes tienen mas facilidad para sincronizar el ritmo cuando audio y video comparten el mismo patron temporal (Hove & Spence, 2010).
+El Beat Alignment Test (Iversen & Patel, 2008) introducido por Iversen & Patel demostró que el procesamiento de los beats recae en mecanismos los cuales no son exclusivamente auditivos, y por tanto implica que los regular auditory rhythms are naturally linked to visual pulsing or periodic motion.
+Together, estos descubrimiendo demuestran que la percepción del ritmo y el tempo engages timing systems that operate across modalities, y los cuales support la relación entre el tempo (BPM) y el visual pulsing. 
+
+These correspondences suggest that humans naturally match certain auditory and visual features, providing a foundation for designing visualizations that can reflect musical structure.
+
 
 - Relationships between sound and vision (Spence 2011, Palmer 2013, Marks 1975, Tresilian 2020): justification of why visuals can evoke similar emotions, how humans match diferent acustic features to visual changes. Justification of my visual features choice and their mapping to an acustic feature.
 - Linking Valence–Arousal with Acoustic and Visual Features
@@ -58,6 +65,20 @@ Per a que els usuaris sapiguen com categoritzar les emocions mitjançant els vis
 
 ---
 ### References
+
+Marks, L. E. (1975). On colored-hearing synesthesia: Cross-modal translations of sensory dimensions. Psychological Bulletin, 82(3), 303–331.
+
+Evans, K. K., & Treisman, A. (2011). Natural cross-modal mappings between visual and auditory features. Journal of Vision, 10(1), 6–6.
+
+Bresin, R. (2005). What is the color of that music performance? In M. Baroni, A. R. Addessi, R. Caterina, & M. Costa (Eds.), Proceedings of the 9th International Conference on Music Perception and Cognition (ICMPC) (pp. 220–223).
+
+Ward, J., Huckstep, B., & Tsakanikos, E. (2006). Sound–colour synaesthesia: To what extent does it use cross-modal mechanisms common to us all? Cortex, 42(2), 264–280.
+
+Palmer, S. E., Schloss, K. B., Xu, Z., & Prado-León, L. (2013). Music–color associations are mediated by emotion. Proceedings of the National Academy of Sciences, 110(22), 8836–8841.
+
+Hove, M. J., & Spence, C. (2010). Synchronizing to audiovisual speech: A crossmodal rhythmic illusion. Current Biology, 20, 1363–1368.
+
+Iversen, J. R., & Patel, A. D. (2008). The Beat Alignment Test (BAT): Surveying beat processing abilities in the general population. Proceedings of the 10th ICMPC, 465–468.
 
 ---
 
