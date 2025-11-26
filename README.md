@@ -26,7 +26,14 @@ Many studies show that low-level acoustic attributes play a significant role in 
 
 Although acoustic features influence emotion directly, listeners do not experience music only in auditory terms. Many studies show that music spontaneously evokes mental imagery, often involving color, motion or spatial forms, suggesting that the perceptual system establishes natural associations between acoustic structure and visual representation. Understanding these imagery processes provides an important bridge toward studying visualizations generated from acoustic features.
 
-- Music evoked mental imagery (Dahl, 2023): Sometimes listeners saw mental visual imagery when hearing music. Imagery patterns often correspond to acoustic properties.
+Dahl et al. (Dahl et al. 2023), found that musical structure frequently aligns with spontaneous visual imagery, including colors, shapes, and dynamic movements. Aunque en el articulo no se especifican que características acusticas forman las diferentes imagenes visuales, los resultados sugieren que las variaciones en las diferentes propiedades musicales influyen notablemente en la vividez y la dinamica de la imaginería. Por tanto, podemos decir que el sistema auditivo interactua con el sistema visual de tal forma que la informacion musical se puede llegar a experimentar de forma visual.
+
+Las investigaciones en percepción multisensorial muestran que muchas relaciones sonido-vision no són meramente individuales, sino que son correspondencias intermodales sistematicas compartidas entre los oyentes. Estas correspondencias pueden describir relaciones consistentes entre el sistema auditivo y el visual, oferiendo la posibilidad de diseñar visuales que reflejen propiedades acusticas.
+
+Existen muchos estudios que documentan estas correspondences entre el sistema auditivo y el sistema visual, a continuacion se muestran las tres categorias de mappings que se exploraran en el proyecto, así como la literatura que los soporta:
+
+- Sound Intensity --> Visual Motion
+
 - Relationships between sound and vision (Spence 2011, Palmer 2013, Marks 1975, Tresilian 2020): justification of why visuals can evoke similar emotions, how humans match diferent acustic features to visual changes. Justification of my visual features choice and their mapping to an acustic feature.
 - Linking Valence–Arousal with Acoustic and Visual Features
 - Short paragraph summarizing and leading into the Research Question and Hypotheses.
