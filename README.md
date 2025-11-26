@@ -32,7 +32,9 @@ Las investigaciones en percepción multisensorial muestran que muchas relaciones
 
 Existen muchos estudios que documentan estas correspondences entre el sistema auditivo y el sistema visual, a continuacion se muestran las tres categorias de mappings que se exploraran en el proyecto, así como la literatura que los soporta:
 
-- Sound Intensity -> Visual Motion
+- One of the most consistent findings is the association between acoustic intensity (loudness, RMS) and visual motion. Already in early work, Marks demonstrated that increases in auditory intensity are matched with increases in visual size or movement, noting that "*greater loudness is associated with greater visual magnitude* (Marks, 1975). De forma similar, Evans and Treisman documentaron que, de forma natural, los oyentes relacionan sonidos fuertes con estimulos visuales aparentemente largos o rapidos, concluyendo que "*auditory intensity tends to be matched with increased visual dynamism*" (Evans & Treisman, 2011). Therefore, this findings suggests that acoustic energy could be mapped to movement amplitude or speed in visual representations.
+- Spectral Brightness → Color Brightness and Hue
+- Tempo → Visual Pulsing and Rhythm
 
 - Relationships between sound and vision (Spence 2011, Palmer 2013, Marks 1975, Tresilian 2020): justification of why visuals can evoke similar emotions, how humans match diferent acustic features to visual changes. Justification of my visual features choice and their mapping to an acustic feature.
 - Linking Valence–Arousal with Acoustic and Visual Features
@@ -47,7 +49,7 @@ Can visuals generated from Energy (RMS), Spectral Centroid and Tempo (BPM) evoke
 
 ---
 ## Methodology
-
+Escollir les cançons (2 tristes i 2 contentes), descarregarles i adjuntarles al github per escoltarles dema. Explicar perque s'han escollit aquestes cançons (Taruffi) i com estan representades en el sistema de valence-arousal (Taruffi).
 ---
 ## Notes for me:
 (TRACTAR DE SER MOLT METICULOS AL TEST I *INVESTIGAR COM PREGUNTAR ALS USUARIS LES SEVES EMOCIONS*)
