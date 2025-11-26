@@ -26,27 +26,26 @@ Many studies show that low-level acoustic attributes play a significant role in 
 
 Although acoustic features influence emotion directly, listeners do not experience music only in auditory terms. Many studies show that music spontaneously evokes mental imagery, often involving color, motion or spatial forms, suggesting that the perceptual system establishes natural associations between acoustic structure and visual representation. Understanding these imagery processes provides an important bridge toward studying visualizations generated from acoustic features.
 
-Dahl et al. (Dahl et al. 2023), found that musical structure frequently aligns with spontaneous visual imagery, including colors, shapes, and dynamic movements. Aunque en el articulo no se especifican que características acusticas forman las diferentes imagenes visuales, los resultados sugieren que las variaciones en las diferentes propiedades musicales influyen notablemente en la vividez y la dinamica de la imaginería. Por tanto, podemos decir que el sistema auditivo interactua con el sistema visual de tal forma que la informacion musical se puede llegar a experimentar de forma visual.
+Dahl et al. (2023) found that musical structure frequently aligns with spontaneous visual imagery, including colors, shapes, and dynamic movements. Although the article does not specify which acoustic features produce the different visual images, the results suggest that variations in different musical properties significantly influence the vividness and dynamics of the imagery. Therefore, we can say that the auditory system interacts with the visual system in such a way that musical information can come to be experienced visually.
 
-Las investigaciones en percepción multisensorial muestran que muchas relaciones sonido-vision no són meramente individuales, sino que son correspondencias intermodales sistematicas compartidas entre los oyentes. Estas correspondencias pueden describir relaciones consistentes entre el sistema auditivo y el visual, oferiendo la posibilidad de diseñar visuales que reflejen propiedades acusticas.
+Research in multisensory perception shows that many sound–vision relationships are not merely individual, but are systematic intermodal correspondences shared across listeners. These correspondences can describe consistent relationships between the auditory and visual systems, offering the possibility of designing visuals that reflect acoustic properties.
 
-Existen muchos estudios que documentan estas correspondences entre el sistema auditivo y el sistema visual, a continuacion se muestran las tres categorias de mappings que se exploraran en el proyecto, así como la literatura que los soporta:
+There are many studies documenting these correspondences between the auditory and visual systems. Below are the three categories of mappings explored in this project, along with supporting literature:
 
-- One of the most consistent findings is the association between acoustic intensity (loudness, RMS) and visual motion. Already in early work, Marks demonstrated that increases in auditory intensity are matched with increases in visual size or movement, noting that "*greater loudness is associated with greater visual magnitude* (Marks, 1975). De forma similar, Evans and Treisman documentaron que, de forma natural, los oyentes relacionan sonidos fuertes con estimulos visuales aparentemente largos o rapidos, concluyendo que "*auditory intensity tends to be matched with increased visual dynamism*" (Evans & Treisman, 2011). Therefore, this findings suggests that acoustic energy could be mapped to movement amplitude or speed in visual representations.
-- Otra correspondencia establecida en la literatura existente és el spectral brightnes (o spectral centroid) con el color brightness and hue. Se entiende spectral brightness como la cualidad de un sonido que indica cuanta energia contienen las frecuencias altas de su espectro (McAdams, 1999). 
-Segun Bresin, los oyentes associan brighter timbres con "*yellowish and reddish hues*", while darker timbres evoke "*bluish, darker or more muted colors*" (Bresin, 2005). Además también existen estudios donde exploran la sinestesia en los cuales se demuestran que "*higher-pitched and brighter sounds are reliably matched with brighter and lighter colours, even in non-synesthetes*" (Ward, Huckstep, & Tsakanikos, 2006).
-Un poco más tarde, se demostró que las asociaciones entre musica y colores se forman debido a las emociones, donde piezas musicales percibidas como brighter o energeticas corresponden a "*warmer, more saturated colors such as yellow and red*", mientras que las piezas tristes o oscuras se corresponden a "*cold, darker colors such as blue and purple*" (Palment et al, 2013).
-- Por último, la estructura temporal también presenta una relacion crossmodal, además, esta ha sido respaldada por diferentes experimentos en timing audiovisual, como el de Hove & Spence, en el cual se demostró que los oyentes tienen mas facilidad para sincronizar el ritmo cuando audio y video comparten el mismo patron temporal (Hove & Spence, 2010).
-El Beat Alignment Test (Iversen & Patel, 2008) introducido por Iversen & Patel demostró que el procesamiento de los beats recae en mecanismos los cuales no son exclusivamente auditivos, y por tanto implica que los regular auditory rhythms are naturally linked to visual pulsing or periodic motion.
-Together, estos descubrimiendo demuestran que la percepción del ritmo y el tempo engages timing systems that operate across modalities, y los cuales support la relación entre el tempo (BPM) y el visual pulsing. 
+- One of the most consistent findings is the association between acoustic intensity (loudness, RMS) and visual motion. Already in early work, Marks showed that increases in auditory intensity are matched with increases in visual size or movement, noting that *"greater loudness is associated with greater visual magnitude"* (Marks, 1975). Similarly, Evans and Treisman documented that listeners naturally associate loud sounds with visual stimuli that appear large or fast, concluding that *"auditory intensity tends to be matched with increased visual dynamism"* (Evans & Treisman, 2011). Therefore, these findings suggest that acoustic energy could be mapped to movement amplitude or speed in visual representations.
+- Another well-established correspondence in the literature is spectral brightness (or spectral centroid) with color brightness and hue. Spectral brightness is understood as the quality of a sound that indicates how much energy its spectrum contains at high frequencies (McAdams, 1999). According to Bresin, listeners associate brighter timbres with *"yellowish and reddish hues"* while darker timbres evoke *"bluish, darker or more muted colors"* (Bresin, 2005). Studies on synesthesia further show that *"higher-pitched and brighter sounds are reliably matched with brighter and lighter colors, even in non-synesthetes"* (Ward, Huckstep, & Tsakanikos, 2006). Later research demonstrated that music–color associations are formed due to emotion: musical excerpts perceived as bright or energetic correspond to *"warmer, more saturated colors such as yellow and red"*, whereas sad or dark excerpts correspond to *"cold, darker colors such as blue and purple"* (Palmer et al., 2013).
+- Finally, temporal structure also exhibits a crossmodal relationship, supported by various audiovisual timing experiments. For example, Hove & Spence demonstrated that listeners synchronize rhythm more easily when audio and video share the same temporal pattern (Hove & Spence, 2010).
+The Beat Alignment Test (Iversen & Patel, 2008) introduced by Iversen & Patel showed that beat processing relies on mechanisms that are not exclusively auditory, implying that regular auditory rhythms are naturally linked to visual pulsing or periodic motion.
+
+Together, these findings demonstrate that rhythm and tempo perception engage timing systems operating across modalities, which support the relationship between tempo (BPM) and visual pulsing.
 
 These correspondences suggest that humans naturally match certain auditory and visual features, providing a foundation for designing visualizations that can reflect musical structure.
 
-Pero aunque todas estas correspondencias esten respaldadas cientificamente, to evaluate whether this acoustic features can be translated into visual features sin modificar el contenido emocional, es necestario examinar como el sistema auditivo y el sistema visual se pueden relacionar al espacio de valence-arousal.
+However, although these correspondences are scientifically supported, to evaluate whether these acoustic features can be translated into visual features without altering the emotional content, it is necessary to examine how the auditory and visual systems relate within the valence–arousal space.
 
-En el dominio auditivo, los incrementos en energia (RMS) y tempo (BPM) corresponden con higher arousal, mientras que los cambios en spectral centroid influencian tanto valence como arousal (Haumann et al, 2018, 2021). En cambio, en el dominio visual, el movimiento i el rhytmic pulsing incrementan the perceived arousal, whereas color birghtness and warmth se relacionan con positive valence, and darker colors with negative valence (Spence, 2011).
+In the auditory domain, increases in energy (RMS) and tempo (BPM) correspond to higher arousal, while changes in spectral centroid influence both valence and arousal (Haumann et al., 2018, 2021). In contrast, in the visual domain, movement and rhythmic pulsing increase perceived arousal, whereas color brightness and warmth are associated with positive valence, and darker colors with negative valence (Spence, 2011).
 
-Por tanto, estos paralelismos indican que las features visuales y auditivas pueden expresar cualidades afectivas similares. Thogether, these finding provide the theoretical basis for investigating whether visualizations driven by acoustic features can approximate or alter the emotional qualities of music. 
+Therefore, these parallels indicate that visual and auditory features can express similar affective qualities. Together, these findings provide the theoretical basis for investigating whether visualizations driven by acoustic features can approximate or alter the emotional qualities of music.
 
 ---
 ## Research Question & Hypotheses
@@ -57,7 +56,27 @@ Can visuals generated from Energy (RMS), Spectral Centroid and Tempo (BPM) evoke
 
 ---
 ## Methodology
-Escollir les cançons (2 tristes i 2 contentes), descarregarles i adjuntarles al github per escoltarles dema. Explicar perque s'han escollit aquestes cançons (Taruffi) i com estan representades en el sistema de valence-arousal (Taruffi).
+To ensure that the musical excerpts used in this project convey distinguishable emotional qualities, the selection process was informed by research findings (Taruffi et al., 2017), where it was demonstrated that sad and happy music elicit distinct emotional, cognitive and neural patterns. Accross three experiments, the authors showed that sad music makes your mind wander more and increases the activity of the brain network involved in internal thoughts, whereas happy music maintains externally oriented attention and produces significantly higher arousal and happiness ratings. The supplementary materials of the research, provide an extensive validation confirming that their selected sad and happy excerpts occupy distinct regions of the valence-arousal space.
+
+This evidence supports the use of sad and happy music as two psychologically separable emotional categories, aligning respectively with the low-valence/low-arousal and high-valence/high-arousal quadrants of the circumplex model.
+
+Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment:
+- Sad excerpts:
+  1. Death is the Road to Awe from Clint Mansell.
+  2. The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson.
+These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness and low arousal.
+
+- Happy excerpts:
+  1. What Players Are They from Patrick Doyle.
+  2. Two Hornpipes (Tortuga) from Hans Zimmer.
+These pieces appear in Taruffi's validated stimulus list as high in happines, high in arousal and valence.
+
+By relying on this validated emotional framework, the experiment will ensure that any emotional responses elicited by the visualizations can be meaningfully compared with the original musical affect.
+
+*(FROM HERE; TO BE EXTENDED)*
+
+
+
 ---
 ## Notes for me:
 (TRACTAR DE SER MOLT METICULOS AL TEST I *INVESTIGAR COM PREGUNTAR ALS USUARIS LES SEVES EMOCIONS*)
