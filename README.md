@@ -64,11 +64,13 @@ Therefore, using the methodology of Taruffi et al., I selected four instrumental
 - Sad excerpts:
   1. Death is the Road to Awe from Clint Mansell.
   2. The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson.
+
 These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness and low arousal.
 
 - Happy excerpts:
   1. What Players Are They from Patrick Doyle.
   2. Two Hornpipes (Tortuga) from Hans Zimmer.
+
 These pieces appear in Taruffi's validated stimulus list as high in happines, high in arousal and valence.
 
 By relying on this validated emotional framework, the experiment will ensure that any emotional responses elicited by the visualizations can be meaningfully compared with the original musical affect.
