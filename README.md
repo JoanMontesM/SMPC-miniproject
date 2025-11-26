@@ -32,7 +32,7 @@ Las investigaciones en percepción multisensorial muestran que muchas relaciones
 
 Existen muchos estudios que documentan estas correspondences entre el sistema auditivo y el sistema visual, a continuacion se muestran las tres categorias de mappings que se exploraran en el proyecto, así como la literatura que los soporta:
 
-- Sound Intensity --> Visual Motion
+- Sound Intensity -> Visual Motion
 
 - Relationships between sound and vision (Spence 2011, Palmer 2013, Marks 1975, Tresilian 2020): justification of why visuals can evoke similar emotions, how humans match diferent acustic features to visual changes. Justification of my visual features choice and their mapping to an acustic feature.
 - Linking Valence–Arousal with Acoustic and Visual Features
