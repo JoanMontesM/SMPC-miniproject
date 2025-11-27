@@ -100,6 +100,8 @@ Per al questionari amb usuaris, preguntar directament per arousal-valance utilit
 ---
 ### References
 
+(Comprobar que les referencies estiguin ben escrites)
+
 Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39(6), 1161–1178
 
 Dahl, S., Stella, A., & Bjørner, T. (2023). Tell me what you see: An exploratory investigation of visual mental imagery evoked by music
