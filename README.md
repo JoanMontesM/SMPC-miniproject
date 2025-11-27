@@ -91,12 +91,18 @@ The feature streams will be imported into TouchDesigner (Derivative, 2025), wher
 
 Per a que els usuaris sapiguen com categoritzar les emocions mitjançant els visuals, els dos primers tests que relitzen poden ser audio+visual d'una canço trista y altra feliç, y despres de forma aleatoria que es presente nomes la part visual (d'altra canço) y que tracten de categoritzar "l'emoció" que esta transmetent la peça.
 
+Abans i despres del test fer el Panas test.
+
+Extreure les features, analitzarles i probar amb touchdesigner si puc crear les visualitzacions. Sino utilitzar algun software que ho faça, o utilitzar el sistema que haja utilitzat el software per fer-ho.
+
+Per al questionari amb usuaris, preguntar directament per arousal-valance utilitzant escales rollo Likert o visualment en un eix de coordenades.
+
 ---
 ### References
 
 Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39(6), 1161–1178
 
-Dahl, S., Sundberg, J., & Bresin, R. (2023). Tell me what you see: An exploratory investigation of visual mental imagery evoked by music
+Dahl, S., Stella, A., & Bjørner, T. (2023). Tell me what you see: An exploratory investigation of visual mental imagery evoked by music
 
 Haumann, N. T., Vuust, P., & Fritz, T. (2018). Music-induced emotions and brain correlates. Cognitive, Affective, & Behavioral Neuroscience, 18, 1377–1396.
 
