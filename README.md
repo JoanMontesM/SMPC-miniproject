@@ -77,7 +77,13 @@ By relying on this validated emotional framework, the experiment will ensure tha
 
 *(FROM HERE; TO BE EXTENDED)*
 
+Para poder realizar el experimento de forma correcta se extraeran 30-40 segundos de cada pieza musical, asegurando que se mantenga la consistencia temporal y emocional. Con estas 4 piezas, se seguira la metodologia de Haumman et al., donde se extraeran las features (RMS, Spectral Centroid and Tempo) de cada pieza utilizando MIR Toolbox (Lartillot & Toiviainen, 2007). Como ya se ha explicado previamente the extracted features will be mapped to visual parameters;
+- Energy (RMS) to Movement intensity/scale/amplitude.
+- Spectral Centroid to Color hue/brightness.
+- Tempo to Visual pulsing.
+These mappings ensure that each visual transformation expresses a perceptual dimension linked to valence or arousal, supporting the idea that the visuals can carry affective meaning parallel to the music.
 
+The feature streams will be imported into TouchDesigner (Derivative, 2025), where each will be connected to an specific visual operator.
 
 ---
 ## Notes for me:
@@ -115,6 +121,10 @@ Iversen, J. R., & Patel, A. D. (2008). The Beat Alignment Test (BAT): Surveying 
 Spence, C. (2011). Crossmodal correspondences: A tutorial review. Attention, Perception, & Psychophysics, 73(4), 971–995.
 
 Taruffi, L., Pehrs, C., Skouras, S., & Koelsch, S. (2017). Effects of sad and happy music on mind-wandering and the default mode network. Scientific Reports, 7(1), 14396.
+
+Lartillot, O., & Toiviainen, P. (2007). MIR in Matlab (II): A toolbox for musical feature extraction from audio. Proceedings of the 8th International Conference on Music Information Retrieval (ISMIR), 127–130.
+
+Derivative. (2025). TouchDesigner. https://derivative.ca/
 
 ---
 
