@@ -77,7 +77,7 @@ By relying on this validated emotional framework, the experiment will ensure tha
 
 *(FROM HERE; TO BE EXTENDED)*
 
-Para poder realizar el experimento de forma correcta se extraeran 30-40 segundos de cada pieza musical, asegurando que se mantenga la consistencia temporal y emocional. Con estas 4 piezas, se seguira la metodologia de Haumman et al., donde se extraeran las features (RMS, Spectral Centroid and Tempo) de cada pieza utilizando MIR Toolbox (Lartillot & Toiviainen, 2007). Como ya se ha explicado previamente the extracted features will be mapped to visual parameters;
+To conduct the experiment properly, 30–40 seconds will be extracted from each musical piece, ensuring temporal and emotional consistency. With these four excerpts, the methodology of Haumann et al. will be followed, where the features (RMS, Spectral Centroid, and Tempo) will be extracted from each piece using MIR Toolbox (Lartillot & Toiviainen, 2007). As previously explained, the extracted features will be mapped to visual parameters:
 - Energy (RMS) to Movement intensity/scale/amplitude.
 - Spectral Centroid to Color hue/brightness.
 - Tempo to Visual pulsing.
