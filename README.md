@@ -89,6 +89,8 @@ The feature streams will be imported into TouchDesigner (Derivative, 2025), wher
 ## Notes for me:
 (TRACTAR DE SER MOLT METICULOS AL TEST I *INVESTIGAR COM PREGUNTAR ALS USUARIS LES SEVES EMOCIONS*)
 
+“Este proyecto no intenta traducir música a imágenes de forma literal. Parte de la idea de que ciertos aspectos emocionales de la música, como la intensidad, el brillo tímbrico o la sensación temporal— tienen correspondencias perceptuales con el movimiento, el color y el ritmo visual. Para explorar esto, diseñé un estímulo visual muy simple, un círculo, cuyo comportamiento está controlado por estas dimensiones acústicas. El objetivo no es crear visuales expresivos por sí mismos, sino observar si, incluso con una representación mínima, los participantes sitúan las emociones evocadas en regiones similares del espacio valence–arousal.”
+
 Per a que els usuaris sapiguen com categoritzar les emocions mitjançant els visuals, els dos primers tests que relitzen poden ser audio+visual d'una canço trista y altra feliç, y despres de forma aleatoria que es presente nomes la part visual (d'altra canço) y que tracten de categoritzar "l'emoció" que esta transmetent la peça.
 
 Abans i despres del test fer el Panas test.
