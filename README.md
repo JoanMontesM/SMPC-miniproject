@@ -51,8 +51,8 @@ Therefore, these parallels indicate that visual and auditory features can expres
 ## Research Question & Hypotheses
 Can visuals generated from Energy (RMS), Spectral Centroid and Tempo (BPM) evoke emotional impressions similar to those experienced during music listening through changes in movement, color and rhythmic pulsing?
 
-- H1: It is expected that the emotional responses elicited by the visual only test will fall within the same quadrant (or similar) of the valence-arousal space as the responses elicited by the audio only test. (Independent variable: Test modality) (Dependent variables: valence and arousal)
-- H2: When audio and visuals are presented together, it is expected to produce enhanced emotional responses than with each individual condition. (Independent variable: Test modality) (Dependent variables: valence and arousal)
+- H1: It is expected that the emotional responses elicited by the visual only test will fall within the same quadrant (or similar) of the valence-arousal space as the emotional responses elicited by the song. (Independent variable: Test modality) (Dependent variables: valence and arousal)
+- H2: When audio and visuals are presented together, it is expected to produce enhanced emotional responses than with visual condition. (Independent variable: Test modality) (Dependent variables: valence and arousal)
 
 ---
 ## Methodology
