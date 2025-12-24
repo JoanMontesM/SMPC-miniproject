@@ -49,9 +49,9 @@ Therefore, these parallels indicate that visual and auditory features can expres
 
 ---
 ## Research Question & Hypotheses
-Can visuals generated from Energy (RMS), Spectral Centroid and Tempo (BPM) evoke emotional impressions similar to those experienced during music listening through changes in movement, color and rhythmic pulsing?
+Can visuals generated from Energy (RMS) and Spectral Centroid evoke emotional impressions similar to those experienced during music listening through changes in movement, color and rhythmic pulsing?
 
-- H1: It is expected that the emotional responses elicited by the visual only test will fall within the same quadrant (or similar) of the valence-arousal space as the emotional responses elicited by the song. (Independent variable: Test modality) (Dependent variables: valence and arousal)
+- H1: It is expected that the emotional responses elicited by the visual only test will fall within the same quadrant (or similar) of the valence-arousal space as the emotional responses elicited by the excerpts selected. (Independent variable: Test modality) (Dependent variables: valence and arousal)
 - H2: When audio and visuals are presented together, it is expected to produce enhanced emotional responses than with visual condition. (Independent variable: Test modality) (Dependent variables: valence and arousal)
 
 ---
@@ -65,7 +65,7 @@ Therefore, using the methodology of Taruffi et al., I selected four instrumental
   1. Death is the Road to Awe from Clint Mansell.
   2. The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson.
 
-These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness and low arousal.
+These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness, low in valence and arousal.
 
 - Happy excerpts:
   1. What Players Are They from Patrick Doyle.
@@ -73,18 +73,27 @@ These pieces appear in Taruffi's validated stimulus list as strongly associated 
 
 These pieces appear in Taruffi's validated stimulus list as high in happines, high in arousal and valence.
 
-By relying on this validated emotional framework, the experiment will ensure that any emotional responses elicited by the visualizations can be meaningfully compared with the original musical affect.
+By relying on this validated emotional framework, the experiment ensure that any emotional responses elicited by the visualizations can be compared with the original musical affect.
 
-*(FROM HERE; TO BE EXTENDED)*
+To conduct the experiment properly, 40 seconds are extracted from each musical piece, ensuring temporal and emotional consistency. From these four excerpts, energy (using RMS) and spectral brightness (using Spectral Centroid) were extracted in 10 ms time windows. Feature extraction was performed using the Python library Librosa (REFERENCE). As previously described, these features were mapped to specific visual parameters:
 
-To conduct the experiment properly, 30–40 seconds will be extracted from each musical piece, ensuring temporal and emotional consistency. With these four excerpts, the methodology of Haumann et al. will be followed, where the features (RMS, Spectral Centroid, and Tempo) will be extracted from each piece using MIR Toolbox (Lartillot & Toiviainen, 2007). As previously explained, the extracted features will be mapped to visual parameters:
-- Energy (RMS) to Movement intensity/scale/amplitude.
-- Spectral Centroid to Color hue/brightness.
-- Tempo to Visual pulsing.
-These mappings ensure that each visual transformation expresses a perceptual dimension linked to valence or arousal, supporting the idea that the visuals can carry affective meaning parallel to the music.
+- Energy (RMS) to movement intensity and scale of the visual element.
+- Spectral Brightness (Spectral Centroid) to color brightness and hue of the visual element.
 
-The feature streams will be imported into TouchDesigner (Derivative, 2025), where each will be connected to an specific visual operator.
+RMS controls the degree of expansion and contraction of the visual form, higher energy values produce more dynamic motion and lower energy values produce more stable visuals. Spectral Centroid is used to modulate the perveiced brightness of the visuals, higher centroid values produce brighter and more vivid colors, whereas lower values produce darker and more depressed tones.
 
+(Image of the visuals)
+
+As can be observed, the strategy followed to create the visuals was minimalist, since the goal of the project was not to create complex visual representations, but rather to explore whether simple changes derived from acoustic features could convey aspects of the emotional qualities of the music. 
+
+---
+## Design and Implementation
+
+---
+## Evaluation and Analysis
+
+---
+## Discussion
 ---
 ## Notes for me:
 (TRACTAR DE SER MOLT METICULOS AL TEST I *INVESTIGAR COM PREGUNTAR ALS USUARIS LES SEVES EMOCIONS*)
