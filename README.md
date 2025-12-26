@@ -60,7 +60,7 @@ To ensure that the musical excerpts used in this project convey distinguishable 
 
 This evidence supports the use of sad and happy music as two psychologically separable emotional categories, aligning respectively with the low-valence/low-arousal and high-valence/high-arousal quadrants of the circumplex model.
 
-Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment:
+Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment: (ADD TABLE OF THE EXECERPTS with name 1, 2, 3, 4)
 - Sad excerpts:
   1. Death is the Road to Awe from Clint Mansell.
   2. The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson.
@@ -68,8 +68,8 @@ Therefore, using the methodology of Taruffi et al., I selected four instrumental
 These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness, low in valence and arousal.
 
 - Happy excerpts:
-  1. What Players Are They from Patrick Doyle.
-  2. Two Hornpipes (Tortuga) from Hans Zimmer.
+  3. What Players Are They from Patrick Doyle.
+  4. Two Hornpipes (Tortuga) from Hans Zimmer.
 
 These pieces appear in Taruffi's validated stimulus list as high in happines, high in arousal and valence.
 
@@ -88,6 +88,13 @@ As can be observed, the strategy followed to create the visuals was minimalist, 
 
 ---
 ## Design and Implementation
+The system was designed as a two step system en los que se ha separado el analysis y la extraccion de features acusticas, y el mapping y la creción de los visuales. Como se ha mencionado anteriormente la extraccion de audio features se ha implementado utilizando la libreria Librosa de Python. Por cada audio excerpt, se ha convertido la señal a mono y se ha resampleado a 44100Hz, ademas, para asegurar que la extraccion de features fuese correcta, se aplicó un short-time analysis dividiendo la señal en overlapping ventanas. 
+
+Para normalizar los valores, primero se aplicó un moving average smoothing a las extracted features, ya que así conseguiamos generar una curva suavizada y sin cambios muy bruscos that could lead to unstable visuals later. Ademas, a la RMS y Spectral Centroid, se normalizaron en un rango de [0, 1]. Una vez extraidas y normalizadas las features se guardaron en archivos CSV separados por cada excerpt, donde cada fila corresponde a un timestamp y el valor de sus features asociadas en ese instante de tiempo. A continuación se puede observar la curva de RMS y Spectral Centroid de los excerpts 1 y 3.
+
+(Figura comparativa entre excerpt 1 y 3)
+
+Como podemos observar, las propias curvas ya nos determinan que 
 
 ---
 ## Evaluation and Analysis
