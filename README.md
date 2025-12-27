@@ -100,8 +100,9 @@ Como podemos observar, las propias curvas ya nos determinan el estilo de ambas c
 La parte de los visuales se ha implementado utilizando Processing (REFERENCE). Esto se ha realizado ya que asi se podian crear unos visuales que respondieran directamente a los valores que se habian extraido de las features. 
 
 Para poder obtener valores continuos entre los valores extraidos de las features se aplica linear interpolation (REFERENCE) entre los dos feature frames mas cercanos utilizando la siguiente formula:
-$$x(t) = (1-\alpha)x_{0} + \alpha x_{1}$$
-
+```math
+x(t) = (1-\alpha)x_{0} + \alpha x_{1}$$
+```
 
 ---
 ## Evaluation and Analysis
