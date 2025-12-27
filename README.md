@@ -118,7 +118,9 @@ R_{smooth}(t) = (1 - \alpha_{r)) \cdot R_{smooth}(t-1) + \alpha_{r} \cdot R_{n}
 
 #### Spectral Centroid to Color
 The spectral centroid is mapped to color using the HSB color space, allowing both brightness and hue to be controlled independently. Unlike RMS, the centroid is smoothed using a first-order low-pass filter:
+```math
 C_{smooth}(t) = C_{smooth}(t-1) + \alpha_{c} \cdot (C - C_{smooth}(t-1))
+```
 This smoothed value is then mapped to a color within the following ranges:
 - Low centroid values produce dark colors.
 - Mid centroid values broduce brighter and cooler colors. 
