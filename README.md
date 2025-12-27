@@ -99,11 +99,23 @@ Como podemos observar, las propias curvas ya nos determinan el estilo de ambas c
 ### Visual Rendering and Mappings
 La parte de los visuales se ha implementado utilizando Processing (REFERENCE). Esto se ha realizado ya que asi se podian crear unos visuales que respondieran directamente a los valores que se habian extraido de las features. 
 
+#### Linear Interpolation
 Para poder obtener valores continuos entre los valores extraidos de las features se aplica linear interpolation (REFERENCE) entre los dos feature frames mas cercanos utilizando la siguiente formula:
 ```math
-x(t) = (1-\alpha)x_{0} + \alpha x_{1}$$
+x(t) = (1-\alpha)x_{0} + \alpha x_{1}
 ```
+Donde $\alpha$ se representa como la posicion temporal entre valores de feature consecutivas. Esto se aplica para poder crear gradientes entre los colores y ademas que el movimiento sea fluido entre instantes de tiempo, garantizando una continuidad temporal.
 
+#### Energy to Motion
+Los valores normalizados de RMS se mapean a el radio de un circulo centrado en la pantalla. Este mapping es realizado utilizando la siguiente formula:
+```math
+R_{n}(t) = R_{o} + R_{max}\cdot RMS
+```
+Para que el movimiento del circulo sea smooth y organico se aplica un exponential smoothing (REFERENCE):
+```math
+R_{smooth}(t) = (1 - )
+```
+#### Spectral Centroid to Color
 ---
 ## Evaluation and Analysis
 
