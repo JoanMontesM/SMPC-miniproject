@@ -61,14 +61,14 @@ To ensure that the musical excerpts used in this project convey distinguishable 
 This evidence supports the use of sad and happy music as two psychologically separable emotional categories, aligning respectively with the low-valence/low-arousal and high-valence/high-arousal quadrants of the circumplex model.
 
 Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment, two excerpts were chosen to represent sadness, characterized by low valence and low arousal, while two excerpts were selected to represent happiness, characterized by high valence and high arousal.
-
-|Name|Emotional Category|Musical piece|
-|---|---|---|
-|Excerpt 1|Sad|Death is the Road to Awe from Clint Mansell|
-|Excerpt 2|Sad|The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson|
-|Excerpt 3|Happy|Two Hornpipes (Tortuga) from Hans Zimmer|
-|Excerpt 4|Happy|What Players Are They from Patrick Doyle|
-
+<p align="center">
+  |Name|Emotional Category|Musical piece|
+  |---|---|---|
+  |Excerpt 1|Sad|Death is the Road to Awe from Clint Mansell|
+  |Excerpt 2|Sad|The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson|
+  |Excerpt 3|Happy|Two Hornpipes (Tortuga) from Hans Zimmer|
+  |Excerpt 4|Happy|What Players Are They from Patrick Doyle|
+</p>
 By relying on this validated emotional framework, the experiment ensure that any emotional responses elicited by the visualizations can be compared with the original musical affect.
 
 To conduct the experiment properly, 40 seconds are extracted from each musical piece, ensuring temporal and emotional consistency. From these four excerpts, energy (using RMS) and spectral brightness (using Spectral Centroid) were extracted in 10 ms time windows. Feature extraction was performed using the Python library Librosa (REFERENCE). As previously described, these features were mapped to specific visual parameters:
