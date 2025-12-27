@@ -88,13 +88,22 @@ As can be observed, the strategy followed to create the visuals was minimalist, 
 
 ---
 ## Design and Implementation
-The system was designed as a two step system en los que se ha separado el analysis y la extraccion de features acusticas, y el mapping y la creción de los visuales. Como se ha mencionado anteriormente la extraccion de audio features se ha implementado utilizando la libreria Librosa de Python. Por cada audio excerpt, se ha convertido la señal a mono y se ha resampleado a 44100Hz, ademas, para asegurar que la extraccion de features fuese correcta, se aplicó un short-time analysis dividiendo la señal en overlapping ventanas. 
+The system was designed as a two step system en los que se ha separado el analysis y la extraccion de features acusticas, y el mapping y la creción de los visuales. Como se ha mencionado anteriormente la extraccion de audio features se ha implementado utilizando la libreria Librosa de Python. Por cada audio excerpt, se ha convertido la señal a mono y se ha resampleado a 44100Hz, ademas, para asegurar que la extraccion de features fuese correcta, se aplicó un short-time analysis dividiendo la señal en overlapping windows. 
 
 Para normalizar los valores, primero se aplicó un moving average smoothing a las extracted features, ya que así conseguiamos generar una curva suavizada y sin cambios muy bruscos that could lead to unstable visuals later. Ademas, a la RMS y Spectral Centroid, se normalizaron en un rango de [0, 1]. Una vez extraidas y normalizadas las features se guardaron en archivos CSV separados por cada excerpt, donde cada fila corresponde a un timestamp y el valor de sus features asociadas en ese instante de tiempo. A continuación se puede observar la curva de RMS y Spectral Centroid de los excerpts 1 y 3.
 
 (Figura comparativa entre excerpt 1 y 3)
 
-Como podemos observar, las propias curvas ya nos determinan que 
+Como podemos observar, las propias curvas ya nos determinan el estilo de ambas canciones. Excerpt 1 muestra una curva de RMS más baja y estable, sin cambios bruscos ni picos pronunciados, sugeriendo una energia con menor variabilidad temporal, al igual que el spectral centroid, el cual tiende a mantenerse en valores bajos, indicando un espectro mas bajo dominado por frecuencias graves. Como se ha explicado anteriormente estas caracteristicas son asociadas valence y arousal bajos. En cambio, la curva de RMS del excerpt 1 muestra valores mas altos y con mayor variaciones, al igual que el spectral centroid, el cual refleja un peso mayor en las frecuencias altas, ambas caracteristicas asociadas a valence y arousal elevados. 
+
+### Visual Rendering and Mappings
+La parte de los visuales se ha implementado utilizando Processing (REFERENCE). Esto se ha realizado ya que asi se podian crear unos visuales que respondieran directamente a los valores que se habian extraido de las features. 
+
+Para poder obtener valores continuos entre los valores extraidos de las features se aplica linear interpolation (REFERENCE) entre los dos feature frames mas cercanos utilizando la siguiente formula:
+$$
+x(t) = (1-\alpha)x_{0} + \alpha x_{1}
+$$
+
 
 ---
 ## Evaluation and Analysis
