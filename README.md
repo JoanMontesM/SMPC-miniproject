@@ -132,6 +132,7 @@ This smoothed value is then mapped to a color within the following ranges:
 The experiment was designed to evaluate the influence of generated visuals on emotional perception, as well as to explore how audio can influence this perception. To this end, the experiment was designed with two conditions:
 - Only visual (V)
 - Audio + Visual (AV)
+
 To investigate whether the order of display influence the participants, there were two experimental sequences defined. In the first sequence, the participants experienced the only visual condition first followed by the Audio + Visual condition. Whereas in the second sequence, the order was reversed. The participants were divided between the two sequences, therefore half of participants completed the V->AV order, while the other half completed AV->V order. Within each condition, all four excerpts were presented in randomized order to reduce learning effects.
 
 After reach stimulus, the participants were asked to rate their emotional response using a valence-arousal questionnarie...
