@@ -113,7 +113,7 @@ R_{n}(t) = R_{o} + R_{max}\cdot RMS
 ```
 To ensure that the movement of the circle is smooth and organic, exponential smoothing (REFERENCE) is applied:
 ```math
-R_{smooth}(t) = (1 - \alpha_{r)) \cdot R_{smooth}(t-1) + \alpha_{r} \cdot R_{n}
+R_{smooth}(t) = (1 - \alpha_{r})) \cdot R_{smooth}(t-1) + \alpha_{r} \cdot R_{n}
 ```
 
 #### Spectral Centroid to Color
