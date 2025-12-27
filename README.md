@@ -88,36 +88,48 @@ As can be observed, the strategy followed to create the visuals was minimalist, 
 
 ---
 ## Design and Implementation
-The system was designed as a two step system en los que se ha separado el analysis y la extraccion de features acusticas, y el mapping y la creción de los visuales. Como se ha mencionado anteriormente la extraccion de audio features se ha implementado utilizando la libreria Librosa de Python. Por cada audio excerpt, se ha convertido la señal a mono y se ha resampleado a 44100Hz, ademas, para asegurar que la extraccion de features fuese correcta, se aplicó un short-time analysis dividiendo la señal en overlapping windows. 
+The system was designed as a two-step system in which the analysis and extraction of acoustic features are separated from the mapping and creation of the visuals. As mentioned previously, the extraction of audio features was implemented using the Python library Librosa. For each audio excerpt, the signal was converted to mono and resampled to 44100 Hz. In addition, to ensure that feature extraction was accurate, a short-time analysis was applied by dividing the signal into overlapping windows.
 
-Para normalizar los valores, primero se aplicó un moving average smoothing a las extracted features, ya que así conseguiamos generar una curva suavizada y sin cambios muy bruscos that could lead to unstable visuals later. Ademas, a la RMS y Spectral Centroid, se normalizaron en un rango de [0, 1]. Una vez extraidas y normalizadas las features se guardaron en archivos CSV separados por cada excerpt, donde cada fila corresponde a un timestamp y el valor de sus features asociadas en ese instante de tiempo. A continuación se puede observar la curva de RMS y Spectral Centroid de los excerpts 1 y 3.
+To normalize the values, a moving average smoothing was applied first to the extracted features, this allowed to generate a smoothed curve without changes that later could lead to unstable visuals. Furthermore, both RMS and Spectral Centroid were normalized to a range of [0, 1]. Once the features were extracted and normalized, they were saved into separate CSV files for each excerpt, where each row corresponds to a timestamp and the values of the associated features at that moment in time. Below, it can be observed the RMS and Spectral Centroid curves of excerpts 1 and 3.
 
 (Figura comparativa entre excerpt 1 y 3)
 
-Como podemos observar, las propias curvas ya nos determinan el estilo de ambas canciones. Excerpt 1 muestra una curva de RMS más baja y estable, sin cambios bruscos ni picos pronunciados, sugeriendo una energia con menor variabilidad temporal, al igual que el spectral centroid, el cual tiende a mantenerse en valores bajos, indicando un espectro mas bajo dominado por frecuencias graves. Como se ha explicado anteriormente estas caracteristicas son asociadas valence y arousal bajos. En cambio, la curva de RMS del excerpt 1 muestra valores mas altos y con mayor variaciones, al igual que el spectral centroid, el cual refleja un peso mayor en las frecuencias altas, ambas caracteristicas asociadas a valence y arousal elevados. 
+As can be observed, both curves determine the style of both songs. Excerpt 1 shows a lower and more stable RMS curve, without abrupt changes or pronounced peaks, suggesting an energy with lower temporal variability. Similarly, the spectral centroid tends to remain at low values, indicating a lower spectrum dominated by low frequencies. As explained previously, these characteristics are associated with low valence and low arousal. In contrast, the RMS curve of excerpt 3 shows higher values and greater variations, as the spectral centroid which reflects a stronger presence of high frequencies, these characteristics are associated with high valence and high arousal.
 
 ### Visual Rendering and Mappings
-La parte de los visuales se ha implementado utilizando Processing (REFERENCE). Esto se ha realizado ya que asi se podian crear unos visuales que respondieran directamente a los valores que se habian extraido de las features. 
+The visuals were implemented using Processing (REFERENCE). This choice was made because it allows the creation of visuals that respond directly to the values extracted from the acoustic features.
 
 #### Linear Interpolation
-Para poder obtener valores continuos entre los valores extraidos de las features se aplica linear interpolation (REFERENCE) entre los dos feature frames mas cercanos utilizando la siguiente formula:
+To obtain continuous values between the extracted feature values, it was applied linear interpolation (REFERENCE) between the two nearest feature frames using the following formula:
 ```math
 x(t) = (1-\alpha)x_{0} + \alpha x_{1}
 ```
-Donde $\alpha$ se representa como la posicion temporal entre valores de feature consecutivas. Esto se aplica para poder crear gradientes entre los colores y ademas que el movimiento sea fluido entre instantes de tiempo, garantizando una continuidad temporal.
+Where $\alpha$ represents the temporal position between consecutive feature values. This is applied to create gradients between colors and to ensure smooth movement between time instants, guaranteeing temporal continuity.
 
 #### Energy to Motion
-Los valores normalizados de RMS se mapean a el radio de un circulo centrado en la pantalla. Este mapping es realizado utilizando la siguiente formula:
+The normalized RMS values are mapped to the radius of a circle centered on the screen. This mapping is performed using the following formula:
 ```math
 R_{n}(t) = R_{o} + R_{max}\cdot RMS
 ```
-Para que el movimiento del circulo sea smooth y organico se aplica un exponential smoothing (REFERENCE):
+To ensure that the movement of the circle is smooth and organic, exponential smoothing (REFERENCE) is applied:
 ```math
-R_{smooth}(t) = (1 - )
+R_{smooth}(t) = (1 - \alpha_{r)) \cdot R_{smooth}(t-1) + \alpha_{r} \cdot R_{n}
 ```
+
 #### Spectral Centroid to Color
+The spectral centroid is mapped to color using the HSB color space, allowing both brightness and hue to be controlled independently. Unlike RMS, the centroid is smoothed using a first-order low-pass filter:
+C_{smooth}(t) = C_{smooth}(t-1) + \alpha_{c} \cdot (C - C_{smooth}(t-1))
+This smoothed value is then mapped to a color within the following ranges:
+- Low centroid values produce dark colors.
+- Mid centroid values broduce brighter and cooler colors. 
+- High centroid values produce bright and lighter colors.
+
 ---
 ## Evaluation and Analysis
+Expansion codigo Processing
+Datos demograficos usuarios
+Test
+Analisis de los datos
 
 ---
 ## Discussion
