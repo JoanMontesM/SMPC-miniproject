@@ -60,18 +60,14 @@ To ensure that the musical excerpts used in this project convey distinguishable 
 
 This evidence supports the use of sad and happy music as two psychologically separable emotional categories, aligning respectively with the low-valence/low-arousal and high-valence/high-arousal quadrants of the circumplex model.
 
-Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment: (ADD TABLE OF THE EXECERPTS with name 1, 2, 3, 4)
-- Sad excerpts:
-  1. Death is the Road to Awe from Clint Mansell.
-  2. The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson.
+Therefore, using the methodology of Taruffi et al., I selected four instrumental excerpts for the experiment, two excerpts were chosen to represent sadness, characterized by low valence and low arousal, while two excerpts were selected to represent happiness, characterized by high valence and high arousal.
 
-These pieces appear in Taruffi's validated stimulus list as strongly associated with sadness, low in valence and arousal.
-
-- Happy excerpts:
-  3. What Players Are They from Patrick Doyle.
-  4. Two Hornpipes (Tortuga) from Hans Zimmer.
-
-These pieces appear in Taruffi's validated stimulus list as high in happines, high in arousal and valence.
+|Name|Emotional Category|Musical piece|
+|---|---|---|
+|Excerpt 1|Sad|Death is the Road to Awe from Clint Mansell|
+|Excerpt 2|Sad|The Black Dog and The Scottish Play from Hilmar Örn Hilmarsson|
+|Excerpt 3|Happy|Two Hornpipes (Tortuga) from Hans Zimmer|
+|Excerpt 4|Happy|What Players Are They from Patrick Doyle|
 
 By relying on this validated emotional framework, the experiment ensure that any emotional responses elicited by the visualizations can be compared with the original musical affect.
 
@@ -82,8 +78,10 @@ To conduct the experiment properly, 40 seconds are extracted from each musical p
 
 RMS controls the degree of expansion and contraction of the visual form, higher energy values produce more dynamic motion and lower energy values produce more stable visuals. Spectral Centroid is used to modulate the perveiced brightness of the visuals, higher centroid values produce brighter and more vivid colors, whereas lower values produce darker and more depressed tones.
 
-(Image of the visuals)
-
+<p align="center">
+  <img src="figures/excerpt1_screenshot.png" alt="Excerpt 1 screenshot" width="300"/>
+  <img src="figures/excerpt3_screenshot.png" alt="Excerpt 3 screenshot" width="298.8"/>
+</p>
 As can be observed, the strategy followed to create the visuals was minimalist, since the goal of the project was not to create complex visual representations, but rather to explore whether simple changes derived from acoustic features could convey aspects of the emotional qualities of the music. 
 
 ---
@@ -92,7 +90,11 @@ The system was designed as a two-step system in which the analysis and extractio
 
 To normalize the values, a moving average smoothing was applied first to the extracted features, this allowed to generate a smoothed curve without changes that later could lead to unstable visuals. Furthermore, both RMS and Spectral Centroid were normalized to a range of [0, 1]. Once the features were extracted and normalized, they were saved into separate CSV files for each excerpt, where each row corresponds to a timestamp and the values of the associated features at that moment in time. Below, it can be observed the RMS and Spectral Centroid curves of excerpts 1 and 3.
 
-(Figura comparativa entre excerpt 1 y 3)
+<p align="center">
+  <img src="figures/excerpt1_vs_excerpt3_rms_centroid.png" alt="Feature comparation between excerpt 1 and 3" width="500"/>
+</p>
+
+
 
 As can be observed, both curves determine the style of both songs. Excerpt 1 shows a lower and more stable RMS curve, without abrupt changes or pronounced peaks, suggesting an energy with lower temporal variability. Similarly, the spectral centroid tends to remain at low values, indicating a lower spectrum dominated by low frequencies. As explained previously, these characteristics are associated with low valence and low arousal. In contrast, the RMS curve of excerpt 3 shows higher values and greater variations, as the spectral centroid which reflects a stronger presence of high frequencies, these characteristics are associated with high valence and high arousal.
 

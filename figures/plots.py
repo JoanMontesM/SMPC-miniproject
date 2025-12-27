@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
     
-df1 = pd.read_csv("visuals/excerpt01_features.csv")
-df2 = pd.read_csv("visuals/excerpt03_features.csv")
+df1 = pd.read_csv("features/excerpt01_features.csv")
+df2 = pd.read_csv("features/excerpt03_features.csv")
    
 plt.figure(figsize=(12, 7.2))
 
