@@ -104,6 +104,7 @@ To obtain continuous values between the extracted feature values, it was applied
 ```math
 x(t) = (1-\alpha)x_{0} + \alpha x_{1}
 ```
+
 Where $\alpha$ represents the temporal position between consecutive feature values. This is applied to create gradients between colors and to ensure smooth movement between time instants, guaranteeing temporal continuity.
 
 #### Energy to Motion
@@ -111,6 +112,7 @@ The normalized RMS values are mapped to the radius of a circle centered on the s
 ```math
 R_{n}(t) = R_{o} + R_{max}\cdot RMS
 ```
+
 To ensure that the movement of the circle is smooth and organic, exponential smoothing (REFERENCE) is applied:
 ```math
 R_{smooth}(t) = (1 - \alpha_{r}) \cdot R_{smooth}(t-1) + \alpha_{r} \cdot R_{n}
@@ -121,6 +123,7 @@ The spectral centroid is mapped to color using the HSB color space, allowing bot
 ```math
 C_{smooth}(t) = C_{smooth}(t-1) + \alpha_{c} \cdot (C - C_{smooth}(t-1))
 ```
+
 This smoothed value is then mapped to a color within the following ranges:
 - Low centroid values produce dark colors.
 - Mid centroid values broduce brighter and cooler colors. 
