@@ -138,9 +138,15 @@ The experiment was designed to evaluate the influence of generated visuals on em
 
 To investigate whether the order of display influence the participants, there were two experimental sequences defined. In the first sequence, the participants experienced the only visual condition first followed by the Audio + Visual condition. Whereas in the second sequence, the order was reversed. The participants were divided between the two sequences, therefore half of participants completed the V->AV order, while the other half completed AV->V order. Within each condition, all four excerpts were presented in randomized order to reduce learning effects.
 
-After reach stimulus, the participants were asked to rate their emotional response using a valence-arousal questionnarie...
+After each stimulus, the participants were asked to rate their emotional response using a valence-arousal questionnarie. Valence was used to represent how pleasant or unpleasant the stimulus felt (mesuring negative to positive affect), while arousal captured the percieved activation level (from calm to excited). Both ratings were collected using a 9-point Likert scale for each dimension. This approach enables the comparision between conditions (V vs AV) and between presentation orders (V->AV vs AV->V). 
 
-To create this scenario, a modified sketch of the processing visual generator was created, including some logic screens...
+In addition to valence and arousal, the questionnaire included some complementary questions to contextualize the responses, like for example: perceived congruence between audio and visuals, general impresions of the visuals and how secure users feel about their answer to the emotional questions. These additional items were included to help interpret the subjective valorations.
+
+This approach  provides a common representation of how to evaluate the subjective emotional experiences in music emotion research. 
+
+To create this experimental flow, a modified version of the Processing sketch used for visual generation was developed. The original sketch was adapted to implement an experiment structure by adding some logic screens and basic controls. Specifically, the code was reorganized as a finite flow that alternates between: instruction and examples screens, stimulus presentation and transition screens indicating when the users must complete the questionnaire.
+
+The experiment was conducted in person using two computers. One was dedicated to the presentation of the generated visuals (for those with audio they also used headphones). The second was used by participants to complete the questionnaires after each stimulus. The inclusion of the logic screens between stimuli helped structuring the experiment.
 
 #### Data Analysis
 Datos demograficos usuarios
