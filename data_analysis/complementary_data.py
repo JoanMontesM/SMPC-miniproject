@@ -22,7 +22,7 @@ df["excerpt"] = df["excerpt"].astype(int)
 visual_columns = [
     "How intense did the movement of the visualization feel?",
     "How intense did the colors of the visualization feel?",
-    "How confident are you in your answer?"
+    "How confident are you in your answer?(V)"
 ]
 
 df_visual = df[df["condition"] == "V"].copy()
@@ -43,7 +43,7 @@ df_av = df[df["condition"] == "AV"].copy()
 
 av_numeric_columns = [
     "How well did the audio and the visualization match?",
-    "How confident are you in your answer?"
+    "How confident are you in your answer?(AV)"
 ]
 
 av_means = (

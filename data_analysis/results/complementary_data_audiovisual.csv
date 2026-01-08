@@ -1,5 +1,5 @@
-excerpt,How well did the audio and the visualization match?,How confident are you in your answer?,dominant_influencing_element,dominant_count
-1,3.7142857142857144,,both equally,11
-2,2.357142857142857,,only the audio,8
-3,3.5,,both equally,12
-4,3.642857142857143,,both equally,6
+excerpt,How well did the audio and the visualization match?,How confident are you in your answer?(AV),dominant_influencing_element,dominant_count
+1,3.7142857142857144,4.0,both equally,11
+2,2.357142857142857,3.7142857142857144,only the audio,8
+3,3.5,4.285714285714286,both equally,12
+4,3.642857142857143,3.9285714285714284,both equally,6
