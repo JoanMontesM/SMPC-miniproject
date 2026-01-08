@@ -150,24 +150,14 @@ The experiment was conducted in person using two computers. One was dedicated to
 
 #### Data Analysis
 Datos demograficos usuarios
-Analisis de los datos
-
+Analisis de los datos:
+- Analisis espacial plano Valence-Arousal (H1)
+- Comparacion V vs AV (datos cualitativos) + distancia euclidea entre excerpts (datos cuantitativos) (H2)
+- Paired t-test (H2)
+- Analisis respuestas complementarias + confidence answer mean in V vs AV
+- 
 ---
 ## Discussion
----
-## Notes for me:
-(TRACTAR DE SER MOLT METICULOS AL TEST I *INVESTIGAR COM PREGUNTAR ALS USUARIS LES SEVES EMOCIONS*)
-
-“Este proyecto no intenta traducir música a imágenes de forma literal. Parte de la idea de que ciertos aspectos emocionales de la música, como la intensidad, el brillo tímbrico o la sensación temporal— tienen correspondencias perceptuales con el movimiento, el color y el ritmo visual. Para explorar esto, diseñé un estímulo visual muy simple, un círculo, cuyo comportamiento está controlado por estas dimensiones acústicas. El objetivo no es crear visuales expresivos por sí mismos, sino observar si, incluso con una representación mínima, los participantes sitúan las emociones evocadas en regiones similares del espacio valence–arousal.”
-
-Per a que els usuaris sapiguen com categoritzar les emocions mitjançant els visuals, els dos primers tests que relitzen poden ser audio+visual d'una canço trista y altra feliç, y despres de forma aleatoria que es presente nomes la part visual (d'altra canço) y que tracten de categoritzar "l'emoció" que esta transmetent la peça.
-
-Abans i despres del test fer el Panas test.
-
-Extreure les features, analitzarles i probar amb touchdesigner si puc crear les visualitzacions. Sino utilitzar algun software que ho faça, o utilitzar el sistema que haja utilitzat el software per fer-ho.
-
-Per al questionari amb usuaris, preguntar directament per arousal-valance utilitzant escales rollo Likert o visualment en un eix de coordenades.
-
 ---
 ### References
 
@@ -203,7 +193,9 @@ Taruffi, L., Pehrs, C., Skouras, S., & Koelsch, S. (2017). Effects of sad and ha
 
 Lartillot, O., & Toiviainen, P. (2007). MIR in Matlab (II): A toolbox for musical feature extraction from audio. Proceedings of the 8th International Conference on Music Information Retrieval (ISMIR), 127–130.
 
-Derivative. (2025). TouchDesigner. https://derivative.ca/
+Processing
+
+
 
 ---
 
