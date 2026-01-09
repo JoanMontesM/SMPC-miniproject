@@ -210,6 +210,10 @@ Finally, no emotional inversions were observed between the visual-only and audio
 Overall, although this type of study depends heavily on the subjectivity of the users, the results of this exploratory study suggest that visuals generated from energy and spectral centroid can evoke emotional impressions that are broadly consistent with those associated with music listening. However, these findings are specific to the present experimental design, sample size and visual mapping strategy, therefore, should not be generalized beyond this context. The results instead serve as an initial indication of the potential of feature-driven visual generation and highlight the importance of this kind of approaches for achieving more robust emotional communication.
 
 ---
+## Acknowledgements
+The development of this project made use of AI-based assistance through ChatGPT (OpenAI, 2026). Specifically, was used to support the creation of the visual system implemented in Processing, as well as the design of the interface screens where the experimental logic and flow were defined. In addition, ChatGPT was employed to assist with grammatical corrections and minor language refinements throughout the report. All conceptual decisions, experimental design, data analysis, and interpretation of results were carried out by the author.
+
+---
 ### References
 
 Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39(6), 1161–1178
@@ -241,6 +245,8 @@ McFee, B., et al. (2025). librosa/librosa: 0.11.0 (0.11.0). Zenodo. https://doi.
 Reas, C. and Fry, B. Processing: programming for the media arts (2006). Journal AI & Society, volume 20(4), pages 526-538, Springer
 
 Ross, A., Willson, V.L. (2017). Paired Samples T-Test. In: Basic and Advanced Statistical Tests. SensePublishers, Rotterdam. https://doi.org/10.1007/978-94-6351-086-8_4
+
+OpenAI. (2026). ChatGPT (Version [GPT 5.2]) [Large language model]. https://chat.openai.com/.
 
 ---
 
